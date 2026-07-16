@@ -70,7 +70,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen w-full flex justify-center bg-black">
-      <div className="w-full max-w-[480px] min-h-screen flex flex-col bg-navy-bg">
+      <div className="w-full max-w-[480px] min-h-screen flex flex-col bg-navy-bg pt-[env(safe-area-inset-top)]">
         {!user ? (
           <SignInScreen
             onSignIn={handleSignIn}
