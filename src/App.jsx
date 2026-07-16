@@ -47,7 +47,10 @@ export default function App() {
     try {
       await signIn();
     } catch (e) {
-      setSignInError("Sign-in failed. Please try again.");
+      console.error("Sign-in error:", e);
+      setSignInError(
+        `Sign-in failed: ${e?.code || ""} ${e?.message || String(e)}`.trim()
+      );
     } finally {
       setSignInBusy(false);
     }
