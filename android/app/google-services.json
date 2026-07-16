@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082719113709",
+    "project_id": "bible-34ff7",
+    "storage_bucket": "bible-34ff7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082719113709:android:ec1d8ff2566a38156257e4",
+        "android_client_info": {
+          "package_name": "com.victorigbogabor.verses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082719113709-7kdnskfosb87he1p4l8uts8bunb1rcdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMw5DLbXjdZV2De2RDLfyhhfva8vNAohU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082719113709-7kdnskfosb87he1p4l8uts8bunb1rcdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
